@@ -1,0 +1,21 @@
+{
+  "name": "noder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "ejs": "*",
+    "socket.io": "*"
+  },
+  "author": "un-a-kim",
+  "license": "ISC"
+}
