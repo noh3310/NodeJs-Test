@@ -30,8 +30,8 @@ app.get('/Login', function (req, res) {
 	res.end();
 });
 
-
-http.listen(9000, function () {
+var port = procexx.env.PORT || 3000;
+http.listen(port, function () {
   connectDB();
   console.log('server listening on port 9000');
 });
